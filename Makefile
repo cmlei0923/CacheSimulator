@@ -2,7 +2,7 @@
 # Student makefile for Cache Lab
 # 
 CC = gcc
-CFLAGS = -g -Wall -Werror -std=c99
+CFLAGS = -g -Wall -Werror -std=c99　-fPIC
 
 all: csim test-trans tracegen
 
